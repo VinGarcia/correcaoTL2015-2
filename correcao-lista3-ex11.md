@@ -63,12 +63,15 @@ Logo no caso acima `I = 1, 3, 2, 1, 3, 2` também é solução havendo dessa for
 - `I = 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3`
 - `I = 1, 2, 3, ...`
 
-**Reduzindo o PCP ao problema da intercessão de gramáticas:**
+**Reduzindo o PCP ao problema da intercessão finita de gramáticas:**
 
-Para reduzir o PCP problema ao problema da intercessão acima basta utilizar uma formulação onde A e B vão se tornar Ga e Gb,
-de forma que se a intercessão entre Ga e Gb for infinita é porque existe solução para o PCP.
+Para reduzir o PCP problema ao problema da intercessão finita de gramáticas
+basta utilizar uma formulação onde A e B vão se tornar Ga e Gb,
+de forma que se a intercessão entre Ga e Gb for:
 
-Analogamente se a intercessão entre Ga e Gb for finita é porque não existe solução para o PCP.
+- Infinita é porque existe solução para o PCP.
+
+- Finita ou vazia é porque não existe uma solução para o PCP.
 
 **Gerando a gramática:**
 
@@ -77,15 +80,15 @@ E para ambas as gramáticas vamos criar novos simbolos terminais t1,...,tn = T t
 
 E agora vamos definir a gramática A e B como:
 
-- Ga: Pa -> ai P ti | ai ti
+- `Ga: Pa -> ai P ti | ai ti`
 
-- Gb: Pb -> bi P ti | bi ti
+- `Gb: Pb -> bi P ti | bi ti`
 
 as palavras formadas serão na forma:
 
-- wa' = a1 a3 a2 t2 t3 t1 => 11 100 111 t2 t3 t1
+- `wa' = a1 a3 a2 t2 t3 t1 => 11 100 111 t2 t3 t1`
 
-- wb' = b1 b3 b2 t2 t3 t1 => 111 001 11 t2 t3 t1
+- `wb' = b1 b3 b2 t2 t3 t1 => 111 001 11 t2 t3 t1`
 
 O exemplo acima é uma intercessão das duas gramáticas.
 
