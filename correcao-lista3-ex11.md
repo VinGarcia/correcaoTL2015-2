@@ -132,7 +132,7 @@ não é decidível o problema da intercessão finita de gramáticas também não
 > e uma GLC `G` que gere `L`, pois: `L = Σ*` sse `Σ* ⊆ L`.
 
 Solução retirada da questão 4b da prova 3 de TL
-do semestre 2015/2 disponível [aqui][prova].
+do semestre 2014/2 disponível [aqui][prova].
 
 [prova]: http://homepages.dcc.ufmg.br/~nvieira/cursos/tl/a14s2/p3s.pdf
 
