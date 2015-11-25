@@ -125,9 +125,18 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 > R: O PCP pode ser reduzido à este problema de forma quase identica a demonstrada no exercício 11a.
 
-**d) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
+**d) Dadas uma linguagem regular `R` e uma LLC `L`, determinar se `R ⊆ L`.**
 
+> R: O problema indecidível de se mostrar que `L = Σ∗`, pode ser
+> reduzido a este produzindo-se uma expressão regular r que denote Σ∗
+> e uma GLC G que gere L, pois: L = Σ∗ sse Σ∗ ⊆ L.
 
+Solução retirada da questão 4b da prova 3 de TL
+do semestre 2015/2 disponível [aqui][prova].
+
+[prova]: http://homepages.dcc.ufmg.br/~nvieira/cursos/tl/a14s2/p3s.pdf
+
+Att, Vinícius Garcia.
 
 
 
