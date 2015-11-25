@@ -2,17 +2,19 @@
 
 Olá Gente, como combinado em sala segue a resolução do exercício 11 da lista de exercícios 3 de Teoria de Linguagens 2015/2.
 
-Questão 11: Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
+**Questão 11: Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:**
 
 11.a: Dadas duas GLCs G1 e G2, determinar se L(G1) intersessão com L(G2) é finita.
 
-Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
+> R: Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
 
 A resposta acima imagino que deva bastar em uma prova. (vou checar com o professor e envio outro e-mail)
 
 Uma explicação detalhada da redução segue abaixo para vocês entenderem direitinho
 (essa mesma redução pode ser usada na questão 10.d. e na questão 11.c,
 por isso achei legal explicar ela em detalhes)
+
+---
 
 A redução é detalhada a seguir:
 
