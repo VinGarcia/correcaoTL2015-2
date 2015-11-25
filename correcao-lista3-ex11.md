@@ -6,7 +6,7 @@ Olá Gente, como combinado em sala segue a resolução do exercício 11 da lista
 
 Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 
-**a) Dadas duas GLCs G1 e G2, determinar se L(G1) intersessão com L(G2) é finita.**
+**a) Dadas duas GLCs `G1` e `G2`, determinar se `L(G1) ∩ L(G2)` é finita.**
 
 > R: Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
 
@@ -122,6 +122,11 @@ não é decidível o problema da intercessão finita de gramáticas também não
 > R: Esse não consegui fazer sozinho, vou checar com o professor e coloco aqui.
 
 **c) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
+
+> R: O PCP pode ser reduzido à este problema de forma quase identica a demonstrada no exercício 11a.
+
+**d) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
+
 
 
 
