@@ -10,7 +10,7 @@ Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 
 > R: Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
 
-A resposta acima imagino que **_deve_** bastar em uma prova. (vou checar com o professor e envio outro e-mail)
+A resposta acima **_deve_** bastar em uma prova, vou checar com o professor e envio outro e-mail com a confirmação.
 
 Uma explicação detalhada da redução segue abaixo para vocês entenderem direitinho
 (essa mesma redução pode ser usada na questão 10.d. e na questão 11.c,
