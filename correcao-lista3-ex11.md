@@ -127,9 +127,9 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 **d) Dadas uma linguagem regular `R` e uma LLC `L`, determinar se `R ⊆ L`.**
 
-> R: O problema de se mostrar que `L = Σ∗` é indecidível e pode ser
-> reduzido a este produzindo-se uma expressão regular r que denote Σ∗
-> e uma GLC G que gere L, pois: L = Σ∗ sse Σ∗ ⊆ L.
+> R: O problema de se mostrar que `L = Σ*` é indecidível e pode ser
+> reduzido a este produzindo-se uma expressão regular `r` que denote `Σ*`
+> e uma GLC `G` que gere `L`, pois: `L = Σ*` sse `Σ* ⊆ L`.
 
 Solução retirada da questão 4b da prova 3 de TL
 do semestre 2015/2 disponível [aqui][prova].
