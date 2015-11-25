@@ -121,7 +121,7 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 > R: Esse não consegui fazer sozinho, vou checar com o professor e coloco aqui.
 
-**c) Dadas uma GR `Gr` e uma GLC `Gl`, determinar se `L(Gr) ∩ L(Gl) = ∅`.**
+**c) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
 
 
 
