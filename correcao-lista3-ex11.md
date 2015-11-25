@@ -117,5 +117,12 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 ---
 
-Questão 11.b:
+**b) Dada uma LLC L, determinar se o complemento de L é finita.**
+
+> R: Esse não consegui fazer sozinho, vou checar com o professor e coloco aqui.
+
+**c) Dadas uma GR `Gr` e uma GLC `Gl`, determinar se `L(Gr) ∩ L(Gl) = ∅`.**
+
+
+
 
