@@ -57,12 +57,12 @@ Tal que wa = wb.
 
 Note também que os indices em `I` podem ser omitidos ou aparecer varias vezes na solução.
 
-Logo no caso acima `I = 1, 3, 2, 1, 3, 2` também é solução havendo dessa forma infinitas soluções:
+Logo no caso acima `I2 = 1, 3, 2, 1, 3, 2` também é solução havendo dessa forma infinitas soluções:
 
-- `I = 1, 3, 2, 1, 3, 2, 1, 3, 2`
-- `I = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2`
-- `I = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2`
-- `I = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, ...`
+- `I3 = 1, 3, 2, 1, 3, 2, 1, 3, 2`
+- `I4 = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2`
+- `I5 = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2`
+- `In = 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, 1, 3, 2, ...`
 
 **Reduzindo o PCP ao problema da intercessão finita de gramáticas:**
 
