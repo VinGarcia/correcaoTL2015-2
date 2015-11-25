@@ -48,10 +48,10 @@ Onde a resposta seria:
 
 Ou seja:
 
-|    | (1) | (3) | (2) |
-|----|-----|-----|-----|
-| wa | 11  | 100 | 111 |
-| wb | 111 | 001 | 11  |
+|     | (1) | (3) | (2) |
+|-----|-----|-----|-----|
+| wa= | 11  | 100 | 111 |
+| wb= | 111 | 001 | 11  |
 
 Tal que wa = wb.
 
@@ -65,7 +65,7 @@ Logo no caso acima `I = 1, 3, 2, 1, 3, 2` também é solução havendo dessa for
 
 **Reduzindo o PCP ao problema da intercessão finita de gramáticas:**
 
-Para reduzir o PCP problema ao problema da intercessão finita de gramáticas
+Para reduzir o PCP ao problema da intercessão finita de gramáticas
 basta utilizar uma formulação onde A e B vão se tornar Ga e Gb,
 de forma que se a intercessão entre Ga e Gb for:
 
