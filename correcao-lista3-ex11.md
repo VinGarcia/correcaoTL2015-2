@@ -24,27 +24,27 @@ A redução é detalhada a seguir:
 
 O problema de post é o problema de dados duas listas de palavras A e B, onde:
 
-- A = a1,a2,a3,...,an
-- B = b1,b2,b3,...,bn
+- `A = a1,a2,a3,...,an`
+- `B = b1,b2,b3,...,bn`
 
 Determinar uma sequencia de indices do tipo:
 
-- I = di,dj,...,dk
+- `I = di,dj,...,dk`
 
 Tal que a concatenação das palavras de A com os respectivos indices é igual à concatenação das palavras de B também na mesma sequencia.
 
 Ou seja:
 
-- ai aj ... ak = bi bj ... bk
+- `ai aj ... ak = bi bj ... bk`
 
 Um exemplo seria do tipo:
 
-- A = 11, 111, 100
-- B = 111, 11, 001
+- `A = 11, 111, 100`
+- `B = 111, 11, 001`
 
 Onde a resposta seria:
 
-- I = 1, 3, 2
+- `I = 1, 3, 2`
 
 Ou seja:
 
