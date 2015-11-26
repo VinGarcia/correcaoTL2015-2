@@ -14,8 +14,8 @@ Construa gramáticas que gerem:
 > A M → M a  
 > M → 𝜆  
 >
-> Z A → Z a  
-> Z B → Z b  
+> Z A' → Z a  
+> Z B' → Z b  
 > A' a → a A'  
 > A' b → b A'  
 > B' a → a B'  
