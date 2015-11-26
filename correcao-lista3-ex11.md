@@ -113,7 +113,7 @@ existem infinitas intercessões, basta repetir as substrings na mesma ordem.
 
 Dessa forma o problema:
 
-- L(Ga) intersec L(Gb) ser finito ou não
+- L(Ga) ∩ L(Gb) ser finito ou não
 
 É reduzível a partir do Problema da Correspondencia de Post. E como o PCP
 não é decidível o problema da intercessão finita de gramáticas também não é.
@@ -122,11 +122,19 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 **b) Dada uma LLC L, determinar se o complemento de L é finita.**
 
-> R: Esse não consegui fazer sozinho, vou checar com o professor e coloco aqui.
+> R: Esse problema é indecidível, pois o PCP pode ser reduzido à ele.
+> Suponha que L = `L = !L(Ga) ⋃ !L(Gb)` e logo `!L = L(Ga) ∩ L(Gb)`. (onde `!` denota complemento)
+> O problema de determinar se `!L` é finito é o mesmo problema de determinar se `!L = L(Ga) ∩ L(Gb)` é finito.
+> E já demonstramos isso na questão a.
 
 **c) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
 
-> R: O PCP pode ser reduzido à este problema de forma quase identica a demonstrada no exercício 11a.
+> R: Esse problema é decidível pois ele pode ser reduzido à um problema decídivel.
+> É possível gerar um AP para `GL` e um um AF para `Gr`. E é possível gerar o produto de
+> um AF com um AP (apesar de não ser possível gerar o produto de dois APs). Assim é possível
+> gerar um AP que represente a linguagem: `L=L(Gr) ∩ L(GL)`. Para determinar se `L = ∅` basta
+> verificar se `G(L)` produz algo, e isso pode ser feito com o algoritmo visto em sala para verificar
+> se a variável `P` de `G(L)` é uma variável geradora.
 
 **d) Dadas uma linguagem regular `R` e uma LLC `L`, determinar se `R ⊆ L`.**
 
