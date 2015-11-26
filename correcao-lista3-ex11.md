@@ -8,7 +8,7 @@ Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 
 **a) Dadas duas GLCs `G1` e `G2`, determinar se `L(G1) ∩ L(G2)` é finita.**
 
-> R: Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
+> R: Esse problema é **indecidível**. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
 > De forma que um PCP `S1` tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução. 
 > E `S2` tem solução sse `S3=L(G1) ∩ L(G2)` é infinita.
 
@@ -122,7 +122,7 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 **b) Dada uma LLC L, determinar se o complemento de L é finita.**
 
-> R: Esse problema é indecidível, pois o PCP pode ser reduzido à ele.
+> R: Esse problema é **indecidível**, pois o PCP pode ser reduzido à ele.
 >
 > Suponha que L = `L = !L(Ga) ⋃ !L(Gb)` e logo `!L = L(Ga) ∩ L(Gb)`. (onde `!` denota complemento)
 > O problema de determinar se `!L` é finito é o mesmo problema de determinar se `!L = L(Ga) ∩ L(Gb)` é finito.
@@ -130,7 +130,7 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 **c) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
 
-> R: Esse problema é decidível pois ele pode ser reduzido à um problema decídivel.
+> R: Esse problema é **decidível** pois ele pode ser reduzido à um problema decídivel.
 >
 > Suponha que `G = L(Gr) ∩ L(GL)`. Pode-se gerar G pelo produto de seus automatos.
 >
@@ -144,7 +144,7 @@ não é decidível o problema da intercessão finita de gramáticas também não
 
 > R: O problema de se mostrar que `L(G) = Σ*` é indecidível. 
 > Se `R = Σ*` e `L = L(G)` um problema é reduzível ao outro, logo
-> ambos são indecidíveis.
+> ambos são **indecidíveis**.
 
 Solução retirada da questão 4b da prova 3 de TL
 do semestre 2014/2 disponível [aqui][prova].
