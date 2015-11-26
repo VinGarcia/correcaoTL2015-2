@@ -9,8 +9,8 @@ Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 **a) Dadas duas GLCs `G1` e `G2`, determinar se `L(G1) ∩ L(G2)` é finita.**
 
 > R: Esse problema é indecidível. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
-> De forma que um PCP S1 tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução. 
-> E S2 tem solução sse `S3=L(G1) ∩ L(G2)` é infinita.
+> De forma que um PCP `S1` tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução. 
+> E `S2` tem solução sse `S3=L(G1) ∩ L(G2)` é infinita.
 
 A resposta acima já basta em uma prova,
 a demonstração abaixo é só para aprendizado.
@@ -123,18 +123,22 @@ não é decidível o problema da intercessão finita de gramáticas também não
 **b) Dada uma LLC L, determinar se o complemento de L é finita.**
 
 > R: Esse problema é indecidível, pois o PCP pode ser reduzido à ele.
+>
 > Suponha que L = `L = !L(Ga) ⋃ !L(Gb)` e logo `!L = L(Ga) ∩ L(Gb)`. (onde `!` denota complemento)
 > O problema de determinar se `!L` é finito é o mesmo problema de determinar se `!L = L(Ga) ∩ L(Gb)` é finito.
-> E já demonstramos isso na questão a.
+> E já demonstramos isso na questão a).
 
 **c) Dadas uma GR `Gr` e uma GLC `GL`, determinar se `L(Gr) ∩ L(GL) = ∅`.**
 
 > R: Esse problema é decidível pois ele pode ser reduzido à um problema decídivel.
-> É possível gerar um AP para `GL` e um um AF para `Gr`. E é possível gerar o produto de
-> um AF com um AP (apesar de não ser possível gerar o produto de dois APs). Assim é possível
-> gerar um AP que represente a linguagem: `L=L(Gr) ∩ L(GL)`. Para determinar se `L = ∅` basta
-> verificar se `G(L)` produz algo, e isso pode ser feito com o algoritmo visto em sala para verificar
-> se a variável `P` de `G(L)` é uma variável geradora.
+>
+> Suponha que `G = L(Gr) ∩ L(GL)`. Pode-se gerar G pelo produto de seus automatos.
+>
+> E para verificar se G é finito basta verificar se sua variável `P` é geradora
+> com o algoritmo visto em sala.
+
+> NOTA: O produto de um AP com um AF é possível,
+> mesmo que o produto entre dois APs não seja possível.
 
 **d) Dadas uma linguagem regular `R` e uma LLC `L`, determinar se `R ⊆ L`.**
 
