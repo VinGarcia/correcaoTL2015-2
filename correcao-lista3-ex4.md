@@ -10,11 +10,11 @@ Construa gramáticas que gerem:
 
 > Resp:
 >
-> P -> A+ | B+ | 𝜆  
-> A+ -> a B A+ c | a A+ c  
-> B+ -> a B B+ c | B B+ c  
-> B a -> a B  
-> B A+ -> A+ b  
-> B B+ -> B+ b  
-> A+ -> 𝜆  
-> B+ -> 𝜆  
+> P → A+ | B+ | 𝜆  
+> A+ → a B A+ c | a A+ c  
+> B+ → a B B+ c | B B+ c  
+> B a → a B  
+> B A+ → A+ b  
+> B B+ → B+ b  
+> A+ → 𝜆  
+> B+ → 𝜆  
