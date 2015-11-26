@@ -8,7 +8,7 @@ Construa gramáticas que gerem:
 
 > Resp:
 >
-> P → a A P A' | b A P B' | M Z
+> P → a A P A' | b A P B' | M Z  
 > A a → a A  
 > A b → b A  
 > A M → M a  
