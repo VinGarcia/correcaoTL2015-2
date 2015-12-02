@@ -14,7 +14,7 @@ Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 > De forma que `S1` tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução.
 >
 > E como essa intercessão só pode ser nula ou infinita (por construção das grámáticas),
-> o problema `S2` é equivalente ao problema de determinar se `S3=L(G1) ∩ L(G2)` é infinito.
+> o problema `S2` é equivalente ao problema de determinar se `S3=L(G1) ∩ L(G2)` é finito.
 
 A resposta acima já basta em uma prova,
 a demonstração abaixo é só para aprendizado.
