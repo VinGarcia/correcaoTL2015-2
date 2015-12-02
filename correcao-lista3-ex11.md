@@ -9,8 +9,9 @@ Para cada PD abaixo, mostre que o mesmo é decidível ou que não é:
 **a) Dadas duas GLCs `G1` e `G2`, determinar se `L(G1) ∩ L(G2)` é finita.**
 
 > R: Esse problema é **indecidível**. O motivo é que o Problema da Correspondencia de Post (PCP) pode ser reduzido à ele.
-> De forma que um PCP `S1` tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução. 
-> E `S2` tem solução sse `S3=L(G1) ∩ L(G2)` é infinita.
+> De forma que um PCP `S1` tem solução sse `S2=L(G1) ∩ L(G2) ≠ ∅` tem solução, G1 e G2 foram geradas a partir das listas de S1. 
+> E como essa intercessão só pode ser nula ou infinita (por construção das grámáticas), o problema `S2` é equivalente ao problema
+> de determinar se `S3=L(G1) ∩ L(G2)` é infinito.
 
 A resposta acima já basta em uma prova,
 a demonstração abaixo é só para aprendizado.
